@@ -13,10 +13,10 @@ export default () => {
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
           autoplay = {{delay: 2000, disableOnInteraction: false}}>
-          <SwiperSlide>Slide 1</SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
-          <SwiperSlide>Slide 4</SwiperSlide>
+          <SwiperSlide style={{backgroundColor: "yellow", height: "300px",textAlign: "center",lineHeight: "300px"}}>Slide 1</SwiperSlide>
+          <SwiperSlide style={{backgroundColor: "gray", height: "300px",textAlign: "center",lineHeight: "300px"}}>Slide 2</SwiperSlide>
+          <SwiperSlide style={{backgroundColor: "red", height: "300px",textAlign: "center",lineHeight: "300px"}}>Slide 3</SwiperSlide>
+          <SwiperSlide style={{backgroundColor: "blue", height: "300px",textAlign: "center",lineHeight: "300px"}}>Slide 4</SwiperSlide>
         </Swiper>
       );
 }
